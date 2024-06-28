@@ -1,0 +1,353 @@
+<!-- seating-plan.svg -->
+<svg width="1200" height="1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stage -->
+  <rect x="100" y="20" width="1000" height="60" fill="#EEE7F6"/>
+  <text x="600" y="60" font-size="36" text-anchor="middle" fill="black">STAGE</text>
+  
+  <!-- Seats -->
+  <g id="seats">
+    <!-- Left Block -->
+    <g id="left-block">
+      <!-- Define rows A to M (13 rows) -->
+      <!-- Columns 1 to 9 (left block) -->
+      <!-- Rows A to M -->
+      <!-- Use a loop to generate rows and columns -->
+      <!-- Row Labels A to M -->
+      <text x="80" y="135" font-size="16" text-anchor="middle" fill="black" class="seat">A</text>
+      <text x="80" y="185" font-size="16" text-anchor="middle" fill="black">B</text>
+      <text x="80" y="235" font-size="16" text-anchor="middle" fill="black">C</text>
+      <text x="80" y="285" font-size="16" text-anchor="middle" fill="black">D</text>
+      <text x="80" y="335" font-size="16" text-anchor="middle" fill="black">E</text>
+      <text x="80" y="385" font-size="16" text-anchor="middle" fill="black">F</text>
+      <text x="80" y="435" font-size="16" text-anchor="middle" fill="black">G</text>
+      <text x="80" y="485" font-size="16" text-anchor="middle" fill="black">H</text>
+      <text x="80" y="535" font-size="16" text-anchor="middle" fill="black">I</text>
+      <text x="80" y="585" font-size="16" text-anchor="middle" fill="black">J</text>
+      <text x="80" y="635" font-size="16" text-anchor="middle" fill="black">K</text>
+      <text x="80" y="685" font-size="16" text-anchor="middle" fill="black">L</text>
+      <text x="80" y="735" font-size="16" text-anchor="middle" fill="black">M</text>
+      
+      <!-- Generate circles for rows A to M -->
+      <g id="row-A">
+        <circle cx="130" cy="130" r="15" fill="#AEBBD9" data-row="A" data-column="1"/>
+        <circle cx="180" cy="130" r="15" fill="#AEBBD9" data-row="A" data-column="2"/>
+        <circle cx="230" cy="130" r="15" fill="#AEBBD9" data-row="A" data-column="3"/>
+        <circle cx="280" cy="130" r="15" fill="#EEE7F6" data-row="A" data-column="4"/>
+        <circle cx="330" cy="130" r="15" fill="#3D53A1" data-row="A" data-column="5"/>
+        <circle cx="380" cy="130" r="15" fill="#7191E6" data-row="A" data-column="6"/>
+        <circle cx="430" cy="130" r="15" fill="#7191E6" data-row="A" data-column="7"/>
+        <circle cx="480" cy="130" r="15" fill="#7191E6" data-row="A" data-column="8"/>
+        <circle cx="530" cy="130" r="15" fill="#7191E6" data-row="A" data-column="9"/>
+      </g>
+      
+      <g id="row-B">
+        <circle cx="130" cy="180" r="15" fill="#7191E6" data-row="B" data-column="1"/>
+        <circle cx="180" cy="180" r="15" fill="#7191E6" data-row="B" data-column="2"/>
+        <circle cx="230" cy="180" r="15" fill="#7191E6" data-row="B" data-column="3"/>
+        <circle cx="280" cy="180" r="15" fill="#7191E6" data-row="B" data-column="4"/>
+        <circle cx="330" cy="180" r="15" fill="#7191E6" data-row="B" data-column="5"/>
+        <circle cx="380" cy="180" r="15" fill="#7191E6" data-row="B" data-column="6"/>
+        <circle cx="430" cy="180" r="15" fill="#7191E6" data-row="B" data-column="7"/>
+        <circle cx="480" cy="180" r="15" fill="#7191E6" data-row="B" data-column="8"/>
+        <circle cx="530" cy="180" r="15" fill="#7191E6" data-row="B" data-column="9"/>
+      </g>
+      
+      <g id="row-C">
+        <circle cx="130" cy="230" r="15" fill="#7191E6" data-row="C" data-column="1"/>
+        <circle cx="180" cy="230" r="15" fill="#7191E6" data-row="C" data-column="2"/>
+        <circle cx="230" cy="230" r="15" fill="#7191E6" data-row="C" data-column="3"/>
+        <circle cx="280" cy="230" r="15" fill="#7191E6" data-row="C" data-column="4"/>
+        <circle cx="330" cy="230" r="15" fill="#7191E6" data-row="C" data-column="5"/>
+        <circle cx="380" cy="230" r="15" fill="#7191E6" data-row="C" data-column="6"/>
+        <circle cx="430" cy="230" r="15" fill="#7191E6" data-row="C" data-column="7"/>
+        <circle cx="480" cy="230" r="15" fill="#7191E6" data-row="C" data-column="8"/>
+        <circle cx="530" cy="230" r="15" fill="#7191E6" data-row="C" data-column="9"/>
+      </g>
+      
+      <g id="row-D">
+        <circle cx="130" cy="280" r="15" fill="#7191E6" data-row="D" data-column="1"/>
+        <circle cx="180" cy="280" r="15" fill="#7191E6" data-row="D" data-column="2"/>
+        <circle cx="230" cy="280" r="15" fill="#7191E6" data-row="D" data-column="3"/>
+        <circle cx="280" cy="280" r="15" fill="#7191E6" data-row="D" data-column="4"/>
+        <circle cx="330" cy="280" r="15" fill="#7191E6" data-row="D" data-column="5"/>
+        <circle cx="380" cy="280" r="15" fill="#7191E6" data-row="D" data-column="6"/>
+        <circle cx="430" cy="280" r="15" fill="#7191E6" data-row="D" data-column="7"/>
+        <circle cx="480" cy="280" r="15" fill="#7191E6" data-row="D" data-column="8"/>
+        <circle cx="530" cy="280" r="15" fill="#7191E6" data-row="D" data-column="9"/>
+      </g>
+      
+      <g id="row-E">
+        <circle cx="130" cy="330" r="15" fill="#7191E6" data-row="E" data-column="1"/>
+        <circle cx="180" cy="330" r="15" fill="#7191E6" data-row="E" data-column="2"/>
+        <circle cx="230" cy="330" r="15" fill="#7191E6" data-row="E" data-column="3"/>
+        <circle cx="280" cy="330" r="15" fill="#7191E6" data-row="E" data-column="4"/>
+        <circle cx="330" cy="330" r="15" fill="#7191E6" data-row="E" data-column="5"/>
+        <circle cx="380" cy="330" r="15" fill="#7191E6" data-row="E" data-column="6"/>
+        <circle cx="430" cy="330" r="15" fill="#7191E6" data-row="E" data-column="7"/>
+        <circle cx="480" cy="330" r="15" fill="#7191E6" data-row="E" data-column="8"/>
+        <circle cx="530" cy="330" r="15" fill="#7191E6" data-row="E" data-column="9"/>
+      </g>
+      
+      <g id="row-F">
+        <circle cx="130" cy="380" r="15" fill="#7191E6" data-row="F" data-column="1"/>
+        <circle cx="180" cy="380" r="15" fill="#7191E6" data-row="F" data-column="2"/>
+        <circle cx="230" cy="380" r="15" fill="#7191E6" data-row="F" data-column="3"/>
+       
+
+ <circle cx="280" cy="380" r="15" fill="#7191E6" data-row="F" data-column="4"/>
+        <circle cx="330" cy="380" r="15" fill="#7191E6" data-row="F" data-column="5"/>
+        <circle cx="380" cy="380" r="15" fill="#7191E6" data-row="F" data-column="6"/>
+        <circle cx="430" cy="380" r="15" fill="#7191E6" data-row="F" data-column="7"/>
+        <circle cx="480" cy="380" r="15" fill="#7191E6" data-row="F" data-column="8"/>
+        <circle cx="530" cy="380" r="15" fill="#7191E6" data-row="F" data-column="9"/>
+      </g>
+      
+      <g id="row-G">
+        <circle cx="130" cy="430" r="15" fill="#7191E6" data-row="G" data-column="1"/>
+        <circle cx="180" cy="430" r="15" fill="#7191E6" data-row="G" data-column="2"/>
+        <circle cx="230" cy="430" r="15" fill="#7191E6" data-row="G" data-column="3"/>
+        <circle cx="280" cy="430" r="15" fill="#7191E6" data-row="G" data-column="4"/>
+        <circle cx="330" cy="430" r="15" fill="#7191E6" data-row="G" data-column="5"/>
+        <circle cx="380" cy="430" r="15" fill="#7191E6" data-row="G" data-column="6"/>
+        <circle cx="430" cy="430" r="15" fill="#7191E6" data-row="G" data-column="7"/>
+        <circle cx="480" cy="430" r="15" fill="#7191E6" data-row="G" data-column="8"/>
+        <circle cx="530" cy="430" r="15" fill="#7191E6" data-row="G" data-column="9"/>
+      </g>
+      
+      <g id="row-H">
+        <circle cx="130" cy="480" r="15" fill="#7191E6" data-row="H" data-column="1"/>
+        <circle cx="180" cy="480" r="15" fill="#7191E6" data-row="H" data-column="2"/>
+        <circle cx="230" cy="480" r="15" fill="#7191E6" data-row="H" data-column="3"/>
+        <circle cx="280" cy="480" r="15" fill="#7191E6" data-row="H" data-column="4"/>
+        <circle cx="330" cy="480" r="15" fill="#7191E6" data-row="H" data-column="5"/>
+        <circle cx="380" cy="480" r="15" fill="#7191E6" data-row="H" data-column="6"/>
+        <circle cx="430" cy="480" r="15" fill="#7191E6" data-row="H" data-column="7"/>
+        <circle cx="480" cy="480" r="15" fill="#7191E6" data-row="H" data-column="8"/>
+        <circle cx="530" cy="480" r="15" fill="#7191E6" data-row="H" data-column="9"/>
+      </g>
+      
+      <g id="row-I">
+        <circle cx="130" cy="530" r="15" fill="#7191E6" data-row="I" data-column="1"/>
+        <circle cx="180" cy="530" r="15" fill="#7191E6" data-row="I" data-column="2"/>
+        <circle cx="230" cy="530" r="15" fill="#7191E6" data-row="I" data-column="3"/>
+        <circle cx="280" cy="530" r="15" fill="#7191E6" data-row="I" data-column="4"/>
+        <circle cx="330" cy="530" r="15" fill="#7191E6" data-row="I" data-column="5"/>
+        <circle cx="380" cy="530" r="15" fill="#7191E6" data-row="I" data-column="6"/>
+        <circle cx="430" cy="530" r="15" fill="#7191E6" data-row="I" data-column="7"/>
+        <circle cx="480" cy="530" r="15" fill="#7191E6" data-row="I" data-column="8"/>
+        <circle cx="530" cy="530" r="15" fill="#7191E6" data-row="I" data-column="9"/>
+      </g>
+      
+      <g id="row-J">
+        <circle cx="130" cy="580" r="15" fill="#7191E6" data-row="J" data-column="1"/>
+        <circle cx="180" cy="580" r="15" fill="#7191E6" data-row="J" data-column="2"/>
+        <circle cx="230" cy="580" r="15" fill="#7191E6" data-row="J" data-column="3"/>
+        <circle cx="280" cy="580" r="15" fill="#7191E6" data-row="J" data-column="4"/>
+        <circle cx="330" cy="580" r="15" fill="#7191E6" data-row="J" data-column="5"/>
+        <circle cx="380" cy="580" r="15" fill="#7191E6" data-row="J" data-column="6"/>
+        <circle cx="430" cy="580" r="15" fill="#7191E6" data-row="J" data-column="7"/>
+        <circle cx="480" cy="580" r="15" fill="#7191E6" data-row="J" data-column="8"/>
+        <circle cx="530" cy="580" r="15" fill="#7191E6" data-row="J" data-column="9"/>
+      </g>
+      
+      <g id="row-K">
+        <circle cx="130" cy="630" r="15" fill="#7191E6" data-row="K" data-column="1"/>
+        <circle cx="180" cy="630" r="15" fill="#7191E6" data-row="K" data-column="2"/>
+        <circle cx="230" cy="630" r="15" fill="#7191E6" data-row="K" data-column="3"/>
+        <circle cx="280" cy="630" r="15" fill="#7191E6" data-row="K" data-column="4"/>
+        <circle cx="330" cy="630" r="15" fill="#7191E6" data-row="K" data-column="5"/>
+        <circle cx="380" cy="630" r="15" fill="#7191E6" data-row="K" data-column="6"/>
+        <circle cx="430" cy="630" r="15" fill="#7191E6" data-row="K" data-column="7"/>
+        <circle cx="480" cy="630" r="15" fill="#7191E6" data-row="K" data-column="8"/>
+        <circle cx="530" cy="630" r="15" fill="#7191E6" data-row="K" data-column="9"/>
+      </g>
+      
+      <g id="row-L">
+        <circle cx="130" cy="680" r="15" fill="#7191E6" data-row="L" data-column="1"/>
+        <circle cx="180" cy="680" r="15" fill="#7191E6" data-row="L" data-column="2"/>
+        <circle cx="230" cy="680" r="15" fill="#7191E6" data-row="L" data-column="3"/>
+        <circle cx="280" cy="680" r="15" fill="#7191E6" data-row="L" data-column="4"/>
+        <circle cx="330" cy="680" r="15" fill="#7191E6" data-row="L" data-column="5"/>
+        <circle cx="380" cy="680" r="15" fill="#7191E6" data-row="L" data-column="6"/>
+        <circle cx="430" cy="680" r="15" fill="#7191E6" data-row="L" data-column="7"/>
+        <circle cx="480" cy="680" r="15" fill="#7191E6" data-row="L" data-column="8"/>
+        <circle cx="530" cy="680" r="15" fill="#7191E6" data-row="L" data-column="9"/>
+      </g>
+      
+      <g id="row-M">
+        <circle cx="130" cy="730" r="15" fill="#7191E6" data-row="M" data-column="1"/>
+        <circle cx="180" cy="730" r="15" fill="#7191E6" data-row="M" data-column="2"/>
+        <circle cx="230" cy="730" r="15" fill="#7191E6" data-row="M" data-column="3"/>
+        <circle cx="280" cy="730" r="15" fill="#7191E6" data-row="M" data-column="4"/>
+        <circle cx="330" cy="730" r="15" fill="#7191E6" data-row="M" data-column="5"/>
+        <circle cx="380" cy="730" r="15" fill="#7191E6" data-row="M" data-column="6"/>
+        <circle cx="430" cy="730" r="15" fill="#7191E6" data-row="M" data-column="7"/>
+        <circle cx="480" cy="730" r="15"
+
+ fill="#7191E6" data-row="M" data-column="8"/>
+        <circle cx="530" cy="730" r="15" fill="#7191E6" data-row="M" data-column="9"/>
+      </g>
+    </g>
+    
+    <!-- Right Block -->
+    <g id="right-block">
+      <g id="row-A">
+        <circle cx="670" cy="130" r="15" fill="#7191E6" data-row="A" data-column="10"/>
+        <circle cx="720" cy="130" r="15" fill="#7191E6" data-row="A" data-column="11"/>
+        <circle cx="770" cy="130" r="15" fill="#7191E6" data-row="A" data-column="12"/>
+        <circle cx="820" cy="130" r="15" fill="#7191E6" data-row="A" data-column="13"/>
+        <circle cx="870" cy="130" r="15" fill="#7191E6" data-row="A" data-column="14"/>
+        <circle cx="920" cy="130" r="15" fill="#7191E6" data-row="A" data-column="15"/>
+        <circle cx="970" cy="130" r="15" fill="#7191E6" data-row="A" data-column="16"/>
+        <circle cx="1020" cy="130" r="15" fill="#7191E6" data-row="A" data-column="17"/>
+        <circle cx="1070" cy="130" r="15" fill="#7191E6" data-row="A" data-column="18"/>
+      </g>
+      
+      <g id="row-B">
+        <circle cx="670" cy="180" r="15" fill="#7191E6" data-row="B" data-column="10"/>
+        <circle cx="720" cy="180" r="15" fill="#7191E6" data-row="B" data-column="11"/>
+        <circle cx="770" cy="180" r="15" fill="#7191E6" data-row="B" data-column="12"/>
+        <circle cx="820" cy="180" r="15" fill="#7191E6" data-row="B" data-column="13"/>
+        <circle cx="870" cy="180" r="15" fill="#7191E6" data-row="B" data-column="14"/>
+        <circle cx="920" cy="180" r="15" fill="#7191E6" data-row="B" data-column="15"/>
+        <circle cx="970" cy="180" r="15" fill="#7191E6" data-row="B" data-column="16"/>
+        <circle cx="1020" cy="180" r="15" fill="#7191E6" data-row="B" data-column="17"/>
+        <circle cx="1070" cy="180" r="15" fill="#7191E6" data-row="B" data-column="18"/>
+      </g>
+      
+      <g id="row-C">
+        <circle cx="670" cy="230" r="15" fill="#7191E6" data-row="C" data-column="10"/>
+        <circle cx="720" cy="230" r="15" fill="#7191E6" data-row="C" data-column="11"/>
+        <circle cx="770" cy="230" r="15" fill="#7191E6" data-row="C" data-column="12"/>
+        <circle cx="820" cy="230" r="15" fill="#7191E6" data-row="C" data-column="13"/>
+        <circle cx="870" cy="230" r="15" fill="#7191E6" data-row="C" data-column="14"/>
+        <circle cx="920" cy="230" r="15" fill="#7191E6" data-row="C" data-column="15"/>
+        <circle cx="970" cy="230" r="15" fill="#7191E6" data-row="C" data-column="16"/>
+        <circle cx="1020" cy="230" r="15" fill="#7191E6" data-row="C" data-column="17"/>
+        <circle cx="1070" cy="230" r="15" fill="#7191E6" data-row="C" data-column="18"/>
+      </g>
+      
+      <g id="row-D">
+        <circle cx="670" cy="280" r="15" fill="#7191E6" data-row="D" data-column="10"/>
+        <circle cx="720" cy="280" r="15" fill="#7191E6" data-row="D" data-column="11"/>
+        <circle cx="770" cy="280" r="15" fill="#7191E6" data-row="D" data-column="12"/>
+        <circle cx="820" cy="280" r="15" fill="#7191E6" data-row="D" data-column="13"/>
+        <circle cx="870" cy="280" r="15" fill="#7191E6" data-row="D" data-column="14"/>
+        <circle cx="920" cy="280" r="15" fill="#7191E6" data-row="D" data-column="15"/>
+        <circle cx="970" cy="280" r="15" fill="#7191E6" data-row="D" data-column="16"/>
+        <circle cx="1020" cy="280" r="15" fill="#7191E6" data-row="D" data-column="17"/>
+        <circle cx="1070" cy="280" r="15" fill="#7191E6" data-row="D" data-column="18"/>
+      </g>
+      
+      <g id="row-E">
+        <circle cx="670" cy="330" r="15" fill="#7191E6" data-row="E" data-column="10"/>
+        <circle cx="720" cy="330" r="15" fill="#7191E6" data-row="E" data-column="11"/>
+        <circle cx="770" cy="330" r="15" fill="#7191E6" data-row="E" data-column="12"/>
+        <circle cx="820" cy="330" r="15" fill="#7191E6" data-row="E" data-column="13"/>
+        <circle cx="870" cy="330" r="15" fill="#7191E6" data-row="E" data-column="14"/>
+        <circle cx="920" cy="330" r="15" fill="#7191E6" data-row="E" data-column="15"/>
+        <circle cx="970" cy="330" r="15" fill="#7191E6" data-row="E" data-column="16"/>
+        <circle cx="1020" cy="330" r="15" fill="#7191E6" data-row="E" data-column="17"/>
+        <circle cx="1070" cy="330" r="15" fill="#7191E6" data-row="E" data-column="18"/>
+      </g>
+      
+      <g id="row-F">
+        <circle cx="670" cy="380" r="15" fill="#7191E6" data-row="F" data-column="10"/>
+        <circle cx="720" cy="380" r="15" fill="#7191E6" data-row="F" data-column="11"/>
+        <circle cx="770" cy="380" r="15" fill="#7191E6" data-row="F" data-column="12"/>
+        <circle cx="820" cy="380" r="15" fill="#7191E6" data-row="F" data-column="13"/>
+        <circle cx="870" cy="380" r="15" fill="#7191E6" data-row="F" data-column="14"/>
+        <circle cx="920" cy="380" r="15" fill="#7191E6" data-row="F" data-column="15"/>
+        <circle cx="970" cy="380" r="15" fill="#7191E6" data-row="F" data-column="16"/>
+        <circle cx="1020" cy="380" r="15" fill="#7191E6" data-row="F" data-column="17"/>
+        <circle cx="1070" cy="380" r="15" fill="#7191E6" data-row="F" data-column="18"/>
+      </g>
+      
+      <g id="row-G">
+        <circle cx="670" cy="430" r="15" fill="#7191E6" data-row="G" data-column="10"/>
+        <circle cx="720" cy="430" r="15" fill="#7191E6" data-row="G" data-column="11"/>
+        <circle cx="770" cy="430" r="15" fill="#7191E6" data-row="G" data-column="12"/>
+        <circle cx="820" cy="430" r="15" fill="#7191E6" data-row="G" data-column="13"/>
+        <circle cx="870" cy="430" r="15" fill="#7191E6" data-row="G" data-column="14"/>
+        <circle cx="920" cy="430" r="15" fill="#7191E6" data-row="G" data-column="15"/>
+        <circle cx="970" cy="430" r="15" fill="#7191E6" data-row="G" data-column="16"/>
+        <circle cx="1020" cy="430" r="15" fill="#7191E6" data-row="G" data-column="17"/>
+        <circle cx="1070" cy="430" r="15" fill="#7191E6" data-row="G" data-column="18"/>
+      </g>
+      
+      <g id="row-H">
+        <circle cx="670" cy="480" r="15" fill="#7191E6" data-row="H" data-column="10"/>
+        <circle cx="720" cy="480" r="15
+
+" fill="#7191E6" data-row="H" data-column="11"/>
+        <circle cx="770" cy="480" r="15" fill="#7191E6" data-row="H" data-column="12"/>
+        <circle cx="820" cy="480" r="15" fill="#7191E6" data-row="H" data-column="13"/>
+        <circle cx="870" cy="480" r="15" fill="#7191E6" data-row="H" data-column="14"/>
+        <circle cx="920" cy="480" r="15" fill="#7191E6" data-row="H" data-column="15"/>
+        <circle cx="970" cy="480" r="15" fill="#7191E6" data-row="H" data-column="16"/>
+        <circle cx="1020" cy="480" r="15" fill="#7191E6" data-row="H" data-column="17"/>
+        <circle cx="1070" cy="480" r="15" fill="#7191E6" data-row="H" data-column="18"/>
+      </g>
+      
+      <g id="row-I">
+        <circle cx="670" cy="530" r="15" fill="#7191E6" data-row="I" data-column="10"/>
+        <circle cx="720" cy="530" r="15" fill="#7191E6" data-row="I" data-column="11"/>
+        <circle cx="770" cy="530" r="15" fill="#7191E6" data-row="I" data-column="12"/>
+        <circle cx="820" cy="530" r="15" fill="#7191E6" data-row="I" data-column="13"/>
+        <circle cx="870" cy="530" r="15" fill="#7191E6" data-row="I" data-column="14"/>
+        <circle cx="920" cy="530" r="15" fill="#7191E6" data-row="I" data-column="15"/>
+        <circle cx="970" cy="530" r="15" fill="#7191E6" data-row="I" data-column="16"/>
+        <circle cx="1020" cy="530" r="15" fill="#7191E6" data-row="I" data-column="17"/>
+        <circle cx="1070" cy="530" r="15" fill="#7191E6" data-row="I" data-column="18"/>
+      </g>
+      
+      <g id="row-J">
+        <circle cx="670" cy="580" r="15" fill="#7191E6" data-row="J" data-column="10"/>
+        <circle cx="720" cy="580" r="15" fill="#7191E6" data-row="J" data-column="11"/>
+        <circle cx="770" cy="580" r="15" fill="#7191E6" data-row="J" data-column="12"/>
+        <circle cx="820" cy="580" r="15" fill="#7191E6" data-row="J" data-column="13"/>
+        <circle cx="870" cy="580" r="15" fill="#7191E6" data-row="J" data-column="14"/>
+        <circle cx="920" cy="580" r="15" fill="#7191E6" data-row="J" data-column="15"/>
+        <circle cx="970" cy="580" r="15" fill="#7191E6" data-row="J" data-column="16"/>
+        <circle cx="1020" cy="580" r="15" fill="#7191E6" data-row="J" data-column="17"/>
+        <circle cx="1070" cy="580" r="15" fill="#7191E6" data-row="J" data-column="18"/>
+      </g>
+      
+      <g id="row-K">
+        <circle cx="670" cy="630" r="15" fill="#7191E6" data-row="K" data-column="10"/>
+        <circle cx="720" cy="630" r="15" fill="#7191E6" data-row="K" data-column="11"/>
+        <circle cx="770" cy="630" r="15" fill="#7191E6" data-row="K" data-column="12"/>
+        <circle cx="820" cy="630" r="15" fill="#7191E6" data-row="K" data-column="13"/>
+        <circle cx="870" cy="630" r="15" fill="#7191E6" data-row="K" data-column="14"/>
+        <circle cx="920" cy="630" r="15" fill="#7191E6" data-row="K" data-column="15"/>
+        <circle cx="970" cy="630" r="15" fill="#7191E6" data-row="K" data-column="16"/>
+        <circle cx="1020" cy="630" r="15" fill="#7191E6" data-row="K" data-column="17"/>
+        <circle cx="1070" cy="630" r="15" fill="#7191E6" data-row="K" data-column="18"/>
+      </g>
+      
+      <g id="row-L">
+        <circle cx="670" cy="680" r="15" fill="#7191E6" data-row="L" data-column="10"/>
+        <circle cx="720" cy="680" r="15" fill="#7191E6" data-row="L" data-column="11"/>
+        <circle cx="770" cy="680" r="15" fill="#7191E6" data-row="L" data-column="12"/>
+        <circle cx="820" cy="680" r="15" fill="#7191E6" data-row="L" data-column="13"/>
+        <circle cx="870" cy="680" r="15" fill="#7191E6" data-row="L" data-column="14"/>
+        <circle cx="920" cy="680" r="15" fill="#7191E6" data-row="L" data-column="15"/>
+        <circle cx="970" cy="680" r="15" fill="#7191E6" data-row="L" data-column="16"/>
+        <circle cx="1020" cy="680" r="15" fill="#7191E6" data-row="L" data-column="17"/>
+        <circle cx="1070" cy="680" r="15" fill="#7191E6" data-row="L" data-column="18"/>
+      </g>
+      
+      <g id="row-M">
+        <circle cx="670" cy="730" r="15" fill="#7191E6" data-row="M" data-column="10"/>
+        <circle cx="720" cy="730" r="15" fill="#7191E6" data-row="M" data-column="11"/>
+        <circle cx="770" cy="730" r="15" fill="#7191E6" data-row="M" data-column="12"/>
+        <circle cx="820" cy="730" r="15" fill="#7191E6" data-row="M" data-column="13"/>
+        <circle cx="870" cy="730" r="15" fill="#7191E6" data-row="M" data-column="14"/>
+        <circle cx="920" cy="730" r="15" fill="#7191E6" data-row="M" data-column="15"/>
+        <circle cx="970" cy="730" r="15" fill="#7191E6" data-row="M" data-column="16"/>
+        <circle cx="1020" cy="730" r="15" fill="#7191E6" data-row="M" data-column="17"/>
+        <circle cx="1070" cy="730" r="15" fill="#7191E6" data-row="M" data-column="18"/>
+      </g>
+    </g>
+    </g>
+</svg>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theatre Seating Plan</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #F8F8F8;
+        }  
+        .seat:hover {
+            fill: green;
+        } 
+        .page-header {
+            display: flex;
+            align-items: center;
+        }
+        .page-header h1 {
+            margin-left: 10px; /* Adjust margin as needed */
+        }
+        .icon-lg {
+            font-size: 3rem; /* Adjust the font size as needed */
+            margin-right: 10px; /* Adjust margin as needed */
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-header">
+        <i class="bi bi-ticket-perforated-fill icon-lg"></i>
+        <h1 style="display: inline;">My Theatre</h1>
+    </div>
+    <div class="container-fluid">
+        <!-- Object tag with SVG -->
+        <object type="image/svg+xml" data="seating-plan.svg" style="width: 100%; height: auto;"></object>
+    </div>
+
+    <!-- Bootstrap JavaScript and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
